@@ -23,7 +23,7 @@ function checkKey(e) {
 	  	let newPointDelete = document.createElement("img");
 	  	newPointDelete.addEventListener("click", deleteText);
 	  	newPointDelete.className = "inf-window__point-close";
-	  	newPointDelete.src = "../img/index/cross.png";
+	  	newPointDelete.src = "img/index/cross.png";
 	  	newPoint.appendChild(newPointDelete);
 	  	Points.appendChild(newPoint);
 	  	createMarker();
